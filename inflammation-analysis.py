@@ -12,6 +12,10 @@ def main(args):
     The Controller is responsible for:
     - selecting the necessary models and views for the current task
     - passing data between models and views
+
+    Args:
+        args (argparse.Namespace): Command-line arguments
+        
     """
     in_files = args.infiles
     if not isinstance(in_files, list):
