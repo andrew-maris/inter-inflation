@@ -31,7 +31,7 @@ def daily_mean(data):
         
     Returns:
         numpy.ndarray: 1D array containing the mean inflammation for each day"""
-    
+
     return np.mean(data, axis=0)
 
 
@@ -57,6 +57,5 @@ def daily_min(data):
     Returns:
         numpy.ndarray: 1D array containing the min inflammation for each day
     """
-    
-    return np.min(data, axis=0)
 
+    return np.min(data, axis=0)
